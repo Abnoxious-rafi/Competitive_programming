@@ -27,7 +27,7 @@ ll update(int ind, int b, int e, int r, ll value)
 {
     if (b == r && e == r)
     {
-        a[ind] = value;
+        a[begin] = value;
         tree[ind] = value;
         return value;
     }
